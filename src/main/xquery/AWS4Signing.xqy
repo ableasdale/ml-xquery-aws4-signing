@@ -1,5 +1,10 @@
 xquery version "1.0-ml";
 
+(:
+  Example taken from:
+  https://docs.aws.amazon.com/general/latest/gr/signature-v4-examples.html
+:)
+
 declare variable $key as xs:string := "wJalrXUtnFEMI/K7MDENG+bPxRfiCYEXAMPLEKEY";
 declare variable $date-stamp as xs:string := "20120215";
 declare variable $region-name as xs:string := "us-east-1";
